@@ -1,1 +1,9 @@
 _build/
+*.swp
+__pycache__
+.venv
+venv
+gantt.*
+.DS_Store
+cartoon.pdf
+blockschedule.pdf

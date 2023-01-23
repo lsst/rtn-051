@@ -8,32 +8,40 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
-.. _Rubin-Observatory-Risk-Tool-User-Guide:
+.. _Risk-Tool-User-Guide-Account-Request-Access:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-#########################################################
-Vera C. Rubin Observatory Risk Management Tool User Guide
-#########################################################
+##########################
+Account Request and Access
+##########################
 
 .. This section should provide a brief, top-level description of the page.
 
-This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool, managed by NOIRLab, built on the Alcea ASF architecture for risk management.
-The software is used for the Vera C. Rubin Observatory operations to document and track risks and opportunities thorughout the lifetime of operations.
-The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management process.
+Account Request
+===============
 
-.. toctree::
-    :maxdepth: 2
-    :glob:
+TBD.
 
-    account-request-and-access
+Log-in and Logout
+=================
 
+#. Use one of the links below to access the risk tool:
+  - `https://noirlab.alceatech.com/saml2/sso`__
+  - `https://sso.connect.pingidentity.com/sso/sp/initsso?saasid=d780822d-5410-4447-b4a2-a4e07bab48cd&idpid=556eec0c-e85f-44d5-a815-d2a8a9145dcc`__
 
-.. Make in-text citations with: :cite:`bibkey`.
-.. Uncomment to use citations
-.. .. rubric:: References
-.. 
-.. .. bibliography:: local.bib lsstbib/books.bib lsstbib/lsst.bib lsstbib/lsst-dm.bib lsstbib/refs.bib lsstbib/refs_ads.bib
-..    :style: lsst_aa
+#. The  SSO login page, shown in FIG will appear – use your NOIRLab SSO username and password to login.
+
+.. figure:: /_static/
+
+#. Once logged in, the user should be able to see the *system dashboard* (shown below), providing a quick summary of the project/program risks.
+
+Follow these steps to logout:
+
+#. Click your username on the main header bar, and select "Logout."
+
+#. Wait for the confirmation page shown below.
+
+#. Close your browser session (all tabs).

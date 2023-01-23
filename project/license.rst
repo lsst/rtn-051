@@ -1,5 +1,4 @@
 .. Review the README on instructions to contribute.
-.. Review the style guide to keep a consistent approach to the documentation.
 .. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
 .. Do not remove the comments that describe each section. They are included to provide guidance to contributors.
 .. Do not remove other content provided in the templates, such as a section. Instead, comment out the content and include comments to explain the situation. For example:
@@ -8,32 +7,18 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
-.. _Rubin-Observatory-Risk-Tool-User-Guide:
+.. _Project-Documentation-License:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-#########################################################
-Vera C. Rubin Observatory Risk Management Tool User Guide
-#########################################################
+#####################
+Documentation License
+#####################
 
 .. This section should provide a brief, top-level description of the page.
 
-This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool, managed by NOIRLab, built on the Alcea ASF architecture for risk management.
-The software is used for the Vera C. Rubin Observatory operations to document and track risks and opportunities thorughout the lifetime of operations.
-The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management process.
+This content is licensed under a Creative Commons Attribution 4.0 International license (CC-BY).
 
-.. toctree::
-    :maxdepth: 2
-    :glob:
-
-    account-request-and-access
-
-
-.. Make in-text citations with: :cite:`bibkey`.
-.. Uncomment to use citations
-.. .. rubric:: References
-.. 
-.. .. bibliography:: local.bib lsstbib/books.bib lsstbib/lsst.bib lsstbib/lsst-dm.bib lsstbib/refs.bib lsstbib/refs_ads.bib
-..    :style: lsst_aa
+.. literalinclude:: ../LICENSE
