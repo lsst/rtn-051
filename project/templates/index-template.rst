@@ -1,3 +1,5 @@
+.. This is a template rst file (.rst) within the Vera C. Rubin Observatory Risk Management Tool User Guide documentation project. This template can be used for a directory's index.rst or other pages within the directory. This comment and proceeding blank line may be deleted after the file is copied and renamed within the destination directory.
+
 .. Review the README on instructions to contribute.
 .. Review the style guide to keep a consistent approach to the documentation.
 .. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
@@ -8,63 +10,29 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
-.. _Risk-Tool-User-Guide-Account-Request-Access:
+.. _Templates-Title-of-Index:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-##########################
-Account Request and Access
-##########################
+##############
+Title of Index
+##############
 
 .. This section should provide a brief, top-level description of the page.
 
-Account request
-===============
+.. note::
+    This is a template file. This note should be deleted when the section is properly populated.
 
-A NOIRLab email is needed to utilize the SSO, and the SSO is required to access the Risk Tool.
+This is a template for the index.rst of a directory.
+If there are no levels beneath this one, make sure the last line containing the asterisk (*) of ``toctree`` is commented out.
 
-Log-in instructions
-===================
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+    :glob:
 
-Follow these steps to log-in with your NOIRLab credentials:
+..    *
 
-1. Use one of the links below to access the risk tool:
-
-  - `<https://noirlab.alceatech.com/saml2/sso>`__
-  - `<https://sso.connect.pingidentity.com/sso/sp/initsso?saasid=d780822d-5410-4447-b4a2-a4e07bab48cd&idpid=556eec0c-e85f-44d5-a815-d2a8a9145dcc>`__
-
-2. The  SSO login page will appear – use your NOIRLab SSO username and password to login.
-
-.. figure:: /_static/Sign-on-Page.png
-    :name: Sign-on-Page
-
-    Sign On webpage.
-
-3. Once logged in, you should be able to see the ``system dashboard``.
-
-.. figure:: /_static/System-Dashboard.png
-
-    Example System Dashboard.
-
-Logout instructions
-===================
-
-Follow these steps to logout:
-
-1. Click your username on the main header bar, and select ``Logout``.
-
-.. figure:: /_static/Logout.png
-    :name: Logout
-
-    Logging out.
-
-2. Wait for the confirmation page shown below.
-
-.. figure:: /_static/Logout-Success.png
-    :name: Logout-Success
-
-    Log out confirmation webpage.
-
-3. Close your browser session (all tabs).
+This template may also be used for other pages within the directory. In this case, feel free to remove the ``toctree``.

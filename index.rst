@@ -20,8 +20,12 @@ Vera C. Rubin Observatory Risk Management Tool User Guide
 
 .. This section should provide a brief, top-level description of the page.
 
-This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool, managed by NOIRLab, built on the Alcea ASF architecture for risk management.
-The software is used for the Vera C. Rubin Observatory operations to document and track risks and opportunities thorughout the lifetime of operations.
+This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool, managed by NOIRLab, built on the Alcea ASF architecture for risk management for the Vera C. Rubin Observatory.
+The software documents and tracks the risks and opportunities throughout the lifetime of operations.
+
+Throughout this documentation, the ATS software tool is referred to as the ``Risk Tool``.
+The link to the Risk Tool is `<https://noirlab.alceatech.com/saml2/sso>`__.
+
 The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management process.
 
 .. toctree::
@@ -29,6 +33,26 @@ The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lss
     :glob:
 
     account-request-and-access
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    basic-use-and-navigation
+
+.. _Rubin-Observatory-Risk-Tool-User-Guide-Project-Information:
+
+Documentation project information
+=================================
+
+Information is provided on this documentation project and how to contribute to it.
+
+.. toctree::
+    :maxdepth: 1
+    :glob:
+    :titlesonly:
+
+    project/index
 
 
 .. Make in-text citations with: :cite:`bibkey`.

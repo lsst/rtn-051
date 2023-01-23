@@ -28,3 +28,17 @@ This page includes information on the documentation project, including how to co
     :glob:
 
     *
+
+.. _Project-Templates:
+
+Template folder
+===============
+
+This section is provided so the template folder files are available.
+
+.. toctree::
+	:maxdepth: 2
+	:titlesonly:
+	:glob:
+
+	templates/index

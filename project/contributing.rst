@@ -121,9 +121,9 @@ Deployment
 ==========
 
 Whenever you push to the GitHub repository, the site is built for the corresponding branch.
-Find your build at https://rtn-051.io/v/. You can push to a branch you've created at any time.
+Find your build at https://rtn-051.lsst.io/v/. You can push to a branch you've created at any time.
 
-The ``main`` branch is always published as :doc:`https://rtn-051.io </index>`.
+The ``main`` branch is always published as :doc:`https://rtn-051.lsst.io </index>`.
 Only authorized individuals can merge to ``main`` (may be delegated).
 To incorporate your suggestions, create a :ref:`pull request <contributing-pr>`.
 

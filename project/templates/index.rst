@@ -8,63 +8,23 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
-.. _Risk-Tool-User-Guide-Account-Request-Access:
+.. _Templates-Template-Folder-Index:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-##########################
-Account Request and Access
-##########################
+#####################
+Template Folder Index
+#####################
 
 .. This section should provide a brief, top-level description of the page.
 
-Account request
-===============
+This section is provided so the template folder files are available.
 
-A NOIRLab email is needed to utilize the SSO, and the SSO is required to access the Risk Tool.
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+    :glob:
 
-Log-in instructions
-===================
-
-Follow these steps to log-in with your NOIRLab credentials:
-
-1. Use one of the links below to access the risk tool:
-
-  - `<https://noirlab.alceatech.com/saml2/sso>`__
-  - `<https://sso.connect.pingidentity.com/sso/sp/initsso?saasid=d780822d-5410-4447-b4a2-a4e07bab48cd&idpid=556eec0c-e85f-44d5-a815-d2a8a9145dcc>`__
-
-2. The  SSO login page will appear – use your NOIRLab SSO username and password to login.
-
-.. figure:: /_static/Sign-on-Page.png
-    :name: Sign-on-Page
-
-    Sign On webpage.
-
-3. Once logged in, you should be able to see the ``system dashboard``.
-
-.. figure:: /_static/System-Dashboard.png
-
-    Example System Dashboard.
-
-Logout instructions
-===================
-
-Follow these steps to logout:
-
-1. Click your username on the main header bar, and select ``Logout``.
-
-.. figure:: /_static/Logout.png
-    :name: Logout
-
-    Logging out.
-
-2. Wait for the confirmation page shown below.
-
-.. figure:: /_static/Logout-Success.png
-    :name: Logout-Success
-
-    Log out confirmation webpage.
-
-3. Close your browser session (all tabs).
+    *
