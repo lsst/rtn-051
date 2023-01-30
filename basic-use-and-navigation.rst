@@ -33,7 +33,7 @@ The Risk Tool is comprised of three ``tracks`` which are associated with managin
 Users navigate through each track independently by either viewing the ``system dashboard`` (set up by administrators) or a ``personal main menu`` for each track (configured by your profile settings).
 Additionally, there is a ``personal dashboard``.
 
-:numref:`Main-Header-Bar` describes basic navigation within the webapp, where `the menu buttons <Menu-Button-Table>`_ are applied to the active track.
+:numref:`Main-Header-Bar` describes basic navigation within the webapp, where :ref:`the menu buttons <Menu-Button-Table>` are applied to the active track.
 :numref:`Main-Menu` is an example of a main menu, specifically for the Risk track list.
 There are separate main menus for each track.
 
@@ -97,10 +97,14 @@ Actions
 Filters and Reports
 ===================
 
-Filters and sorting can be utilized for a track’s main menu, sometimes referred to as a report, displaying group(s) of sorted rows, showing a customized list of field headers.
+Within the Risk Tool, ``filters`` and ``reports`` are different features.
+This user guide will not go into depth about setting up filters or reports; however, a few basic examples are provided.
+
+Filters
+-------
+
+Filters and sorting can be utilized for a track’s main menu, displaying group(s) of sorted rows, showing a customized list of field headers.
 There are ``system filters`` (set up by administrators) and ``user filters``.
-Reports can be used on demand, in scheduled events such as daily emails, or as dashboard components.
-Produced reports will be restricted to the user’s access privileges.
 
 :numref:`Filter-Menu` is an example of the filter selection menu available from the main header bar.
 Clicking the modify button on a system filter allows a user to start creating a user filter starting from the same criteria.
@@ -108,4 +112,50 @@ Clicking the modify button on a system filter allows a user to start creating a 
 .. figure:: /_static/Filter-Menu.png
     :name: Filter-Menu
 
-    Description of filter selection menu.
+    Description of filter selection menu. The report selection menu is similar except the "Go to..." search is replaced by the chart creation menu button.
+
+Follow these steps to create a filter for risks assigned to a specific department:
+  1. Ensure you're on the Risk Track by ensuring "Risks" is displayed in the upper-right of the main header bar.
+  2. Click the spyglass in the main header bar, then click the plus (+) button to start creating a user filter.
+  3. Set Sections/Tabs to "All Fields," then select "Risk Department" under Fields.
+     A new section should appear with the available options for this field --- in this case, a list of the departments.
+
+  .. Note::
+     The ``Sections/Tabs`` are the collapsible sections within a risk/response/action, and the ``Fields`` are entries under the respective section.
+
+  4. Select the department for the filter by clicking so it is highlighted.
+     You can hold the CTRL or SHIFT button when clicking to select more than one criteria.
+     After selecting one or multiple items, the ``Filter Definition`` section will update with the new filter criteria.
+  5. Name the filter appropriately in ``Filter Name`` field, then click ``Save and Run`` or ``Run (No Save)`` to apply the filter.
+  6. If saved, this filter will be available under the ``User Filter Definitions`` in the spyglass menu.
+
+Reports
+-------
+
+Reports are generated lists, summaries, matrices and charts to capture a snapshot or trending information of sorted and/or filtered items within a track.
+Reports can be used on demand, in scheduled events such as daily emails, or as dashboard components, and report data can be exported in a variety of forms.
+
+.. Note::
+   Produced reports will be restricted to the user’s access privileges.
+
+Follow these steps to create a quick report (a list) of active risks sorted by Risk ID:
+  1. Ensure you're on the Risk Track by ensuring "Risks" is displayed in the upper-right of the main header bar.
+  2. Click the reports button in the main header bar, then click the plus (+) button to start creating a user report.
+
+  .. Note::
+     Each collapsible section (e.g., Quick Report, Trend Report) are different types of reports.
+
+  3. If needed, set a filter via ``Use Filter``.
+
+  .. Note::
+     The default filter typically excludes all items which are not in an active status.
+
+     If items under another status are needed in the report, save a filter capturing the criteria, then select the filter in this drop-down menu.
+     For example, using a filter with all statuses will generate a report with all items.
+
+  4. Set any heading or sorting criteria.
+  5. Click the ``Column Preferences`` to add/remove/reorder columns for the report.
+     You can hold the CTRL or SHIFT button when clicking to select more than one criteria.
+  6. Name the report appropriately in ``Report Name`` field, then click ``Save and Run`` or ``Run (No Save)`` to generate the report.
+  7. If saved, the criteria can be reutilized under the ``User Report Definitions`` in the reports menu.
+     A new report will be generated with the most current information in the database.

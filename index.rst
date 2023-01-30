@@ -1,3 +1,10 @@
+:tocdepth: 1
+
+.. .. sectnum::
+.. Removed section numbering.
+
+.. Metadata such as the title, authors, and description are set in metadata.yaml
+
 .. Review the README on instructions to contribute.
 .. Review the style guide to keep a consistent approach to the documentation.
 .. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
@@ -24,7 +31,7 @@ This technote is a user guide for the Alcea Tracking Solutions (ATS) software to
 The software documents and tracks the risks and opportunities throughout the lifetime of operations.
 
 Throughout this documentation, the ATS software tool is referred to as the ``Risk Tool``.
-The link to the Risk Tool is `<https://noirlab.alceatech.com/saml2/sso>`__.
+The link to the ATS Risk Tool is `<https://noirlab.alceatech.com/saml2/sso>`__.
 
 The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management process.
 
@@ -39,6 +46,7 @@ The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lss
     :glob:
 
     basic-use-and-navigation
+
 
 .. _Rubin-Observatory-Risk-Tool-User-Guide-Project-Information:
 
