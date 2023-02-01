@@ -37,15 +37,10 @@ The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lss
 
 .. toctree::
     :maxdepth: 2
-    :glob:
 
     account-request-and-access
-
-.. toctree::
-    :maxdepth: 2
-    :glob:
-
     basic-use-and-navigation
+    breakdown-guides
 
 
 .. _Rubin-Observatory-Risk-Tool-User-Guide-Project-Information:
