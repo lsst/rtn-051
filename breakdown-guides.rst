@@ -213,8 +213,7 @@ Maximum Cost (US Dollars)
 Likely Cost (US Dollars)
 	Likely cost of realized risk.
 
-.. todo::
-   Define when dollar value should be evaluated, e.g., year of impact, year of entry.
+Costs should be estimated as they would occur, i.e. summed over the likely time period of impact (and in approximate then-year dollars). Cost estimates need only be precise to the nearest $1M (although higher precision is appreciated). This is because your cost estimates will be multiplied by your likelihood estimates, and these are likely to be uncertain by at least a factor of two.
 
 Expected Cost Impact
 	Automatically generated value based on the following formula:
