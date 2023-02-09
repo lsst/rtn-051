@@ -28,13 +28,13 @@ This page includes basic navigation elements within the Risk Tool.
 Basic Navigation
 ================
 
-Once logged in, you should be able to see the system dashboard, as shown in :numref:`System-Dashboard`.
+Once signed in, you should be able to see the system dashboard, as shown in :numref:`System-Dashboard`.
 The Risk Tool is comprised of three ``tracks`` which are associated with managing the risks --- ``risks``, ``responses`` and ``actions``.
 Users navigate through each track independently by either viewing the ``system dashboard`` (set up by administrators) or a ``personal main menu`` for each track (configured by your profile settings).
 Additionally, there is a ``personal dashboard``.
 
 :numref:`Main-Header-Bar` describes basic navigation within the webapp, where :ref:`the menu buttons <Menu-Button-Table>` are applied to the active track.
-:numref:`Main-Menu` is an example of a main menu, specifically for the Risk track list.
+:numref:`Risk-Track-List` is an example of a main menu, specifically for the Risk track.
 There are separate main menus for each track.
 
 .. figure:: /_static/System-Dashboard.png
@@ -63,10 +63,10 @@ There are separate main menus for each track.
    * - .. figure:: /_static/Filter-Button.png
      - Create Filter to View Risks/Response Plans/Actions
 
-.. figure:: /_static/Main-Menu.png
-    :name: Main-Menu
+.. figure:: /_static/Risk-Track-List.png
+    :name: Risk-Track-List
 
-    The list main menu for the risk track.
+    Example of main menu, specifically for the risk track.
 
 The Risk Tool is used for multiple projects at NOIRLab --- you can limit the information shown by selecting ``Rubin Operations``.
 
@@ -82,7 +82,7 @@ The Risk Tool is used for multiple projects at NOIRLab --- you can limit the inf
 The tracks are:
 
 Risks
-	Risks are XXX.
+	The Project Management Institute (PMI) defines a risk in the Project Management Body of Knowledge (PMBOK) |reg| as an "uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives."
 	A risk can be categorized as an ``opportunity`` or a ``threat``.
 
 Responses

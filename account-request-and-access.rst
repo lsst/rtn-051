@@ -23,30 +23,30 @@ Account Request and Access
 Account request
 ===============
 
-A NOIRLab email is needed to utilize the SSO, and the SSO is required to access the Risk Tool.
+A NOIRLab email is needed to utilize the single sign-on (SSO), and the SSO is required to access the Risk Tool.
 
-Log-in instructions
-===================
+Sign on instructions
+====================
 
-Follow these steps to log-in with your NOIRLab credentials:
+Follow these steps to sign on with your NOIRLab SSO credentials:
 
 1. Use one of the links below to access the risk tool:
 
   - `<https://noirlab.alceatech.com/saml2/sso>`__
   - `<https://sso.connect.pingidentity.com/sso/sp/initsso?saasid=d780822d-5410-4447-b4a2-a4e07bab48cd&idpid=556eec0c-e85f-44d5-a815-d2a8a9145dcc>`__
 
-2. The  SSO login page will appear – use your NOIRLab SSO username and password to login.
+2. The SSO sign on page will appear --- use your NOIRLab SSO username and password.
 
-.. figure:: /_static/Sign-on-Page.png
-    :name: Sign-on-Page
+.. figure:: /_static/Sign-On-Page.png
+    :name: Sign-On-Page
 
-    Sign On webpage.
+    Sign on webpage.
 
-3. Once logged in, you should be able to see the ``system dashboard``.
+3. After signing on, you should be able to see the ``system dashboard``.
 
 .. figure:: /_static/System-Dashboard.png
 
-    Example System Dashboard.
+    Example system dashboard.
 
 Logout instructions
 ===================
@@ -65,6 +65,6 @@ Follow these steps to logout:
 .. figure:: /_static/Logout-Success.png
     :name: Logout-Success
 
-    Log out confirmation webpage.
+    Logout confirmation webpage.
 
 3. Close your browser session (all tabs).

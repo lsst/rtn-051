@@ -27,7 +27,7 @@ Vera C. Rubin Observatory Risk Management Tool User Guide
 
 .. This section should provide a brief, top-level description of the page.
 
-This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool, managed by NOIRLab, built on the Alcea ASF architecture for risk management for the Vera C. Rubin Observatory.
+This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool, managed by NOIRLab, built on the Alcea ASF architecture for risk management for the Vera C. Rubin Observatory and Legacy Survey of Space and Time (LSST) survey.
 The software documents and tracks the risks and opportunities throughout the lifetime of operations.
 
 Throughout this documentation, the ATS software tool is referred to as the ``Risk Tool``.

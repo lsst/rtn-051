@@ -84,7 +84,7 @@ Date Entered, Date Last Modified, Last Modified By
 	These fields are automatically generated.
 
 Share Risk Externally
-	``Yes`` or ``No`` depending on if the risk is shared external to the project.
+	``Yes`` or ``No`` depending on if the risk is shared external to Rubin Observatory.
 
 .. todo::
    Determine if this is external to project or external stakeholders.
@@ -122,16 +122,18 @@ Overall Impact
 	See :ref:`Risk-Impact-Table` for categories.
 
 Cost Impact
-	Categorization of cost impact to the project.
+	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget of $70,000,000.
 
-	For the Rubin Observatory, the annual budget of $70,000,000 will be used.
+	Cost impacts are categorized relative to the annual baseline, even though in practice the cost of the realized risk may be felt and/or accumulated over multiple years.
 
 	See :ref:`Risk-Impact-Table` for categories.
 
 Schedule Impact
-	Categorization of schedule impact to the project.
+	Categorization of schedule impact, relative to the critical path of the Rubin Observatory's schedule (e.g., the data release cycle).
 
-	Contact your department's Associate Director to determine specifics about the schedule and critical path.
+	You should discuss the specifics with your department's Associate Director to determine the schedule impact.
+	For example, some delays may have an inconsequential impact to the Observatory's operations if it can be absorbed into the data release cycle, while others may require extending the LSST survey or delaying a data release.
+	The latter example affects the Observatory's operational critical path and crucial milestones --- these impacts are the most important ones to capture and accurately.
 
 	See :ref:`Risk-Impact-Table` for categories.
 
@@ -297,14 +299,14 @@ Related Actions
 	Lists Actions associated with this risk.
 
 Residual Overall Impact
-	This is an optional field to categorize the overall impact of the risk to the project after the response plan is in effect.
+	This is an optional field to categorize the overall impact of the risk to Rubin Observatory after the response plan is in effect.
 
 	It can increase the Impact Severity, as shown in this example risk.
 
 	See :ref:`Risk-Impact-Table` for categories.
 
 Residual Cost Impact
-	Categorization of cost impact to the project after the response plan is in effect.
+	Categorization of cost impact to Rubin Observatory after the response plan is in effect.
 
 	For the Rubin Observatory, the annual budget of $70,000,000 will be used.
 
