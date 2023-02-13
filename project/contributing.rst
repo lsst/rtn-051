@@ -133,6 +133,7 @@ Approval process
 #. Verify the content with all authors and contributors.
 
 #. Create a PR.
+   Alternatively, this can be done in conjunction with the previous step to enable review by co-authors.
 
 #. Request the following to review the PR (additional reviewers may be included in the process):
    

@@ -22,7 +22,10 @@ Breakdown of Risk, Plan and Action Objects
 
 This page explains and defines the fields associated with :ref:`risks <Breakdown-Risk>`.
 
-.. Placeholder: This page explains and defines the fields associated with :ref:`risks <Breakdown-Risk>`, :ref:`plans <Breakdown-Plan>` and :ref:`actions <Breakdown-Action>`.
+.. todo::
+   Add responses and actions to this page.
+
+.. This page explains and defines the fields associated with :ref:`risks <Breakdown-Risk>`, :ref:`plans <Breakdown-Plan>` and :ref:`actions <Breakdown-Action>`.
 
 The tables which define the categories when analyzing risks are provided in the :ref:`Breakdown-Risk-Tool-Tables`.
 The source of this information is within the Risk Tool.
@@ -55,7 +58,7 @@ The first section is used to identify and categorize the risk and those responsi
     Risk Identification section using an example risk.
 
 Project
-	Always use ``Rubin Operations``.
+	``Rubin Operations``.
 
 Risk ID
 	Automatically generated unique identifier.
@@ -69,19 +72,20 @@ Status
 Risk Department
 	Rubin Observatory Department which owns the risk and responsible for its management.
 
-Risk Category and Sub Category
+Risk Category; Sub Category
 	Categorizes the risk using the information in :ref:`Risk-Category-Table`.
-	This information is defined within the Risk Tool --- click the information button next to the field to display the information.
+	Click the information button next to the field to display the information within the Risk Tool webapp.
 
 Risk Title
 	Short, descriptive title for the risk.
 
 Risk Statement
-    All risk statements are required to conform to IF-THEN statements.
-    The statement should present the possible risk event or condition ("if") and the potential outcome or consequences ("then").
+	"IF-THEN" statement describing the risk.
 
-Date Entered, Date Last Modified, Last Modified By
-	These fields are automatically generated.
+The statement should present the possible risk event or condition ("if") and the potential outcome or consequences ("then").
+
+Date Entered; Date Last Modified; Last Modified By
+	Automatically generated and updated.
 
 Share Risk Externally
 	``Yes`` or ``No`` depending on if the risk is shared external to Rubin Observatory.
@@ -90,11 +94,10 @@ Share Risk Externally
    Determine if this is external to project or external stakeholders.
 
 Parent
-	This will list associated Parent Risks of a Child Risk.
+	Automatically generated list of associated Parent Risks of a Child Risk.
 
-	``Parent Risks`` are considered a "headline risk" to allow management to drill down to the ``Child Risk(s)`` that are of concern.
-
-	Parent Risks are not assessed directly, and they inherit the risk level of the highest-level Child Risk.
+``Parent Risks`` are considered a "headline risk" to allow management to drill down to the ``Child Risk(s)`` that are of concern.
+Parent Risks are not assessed directly, and they inherit the risk level of the highest-level Child Risk.
 
 
 .. _Breakdown-Risk-Initial-Impact:
@@ -102,12 +105,12 @@ Parent
 Risk initial impact
 -------------------
 
-Risks are analyzed by the ``Cost Impact``, ``Schedule Impact`` to the project, and the ``Likelihood`` for it to be realized.
+Risks are analyzed by the ``Cost Impact`` and ``Schedule Impact`` to Rubin Observatory, and the ``Likelihood`` for it to be realized.
+These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
+The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
+
 The risk should first be analyzed under the initial condition of realization, i.e., before responses take effect.
 The impact categorizations will automatically generate the :ref:`Risk Score <Breakdown-Risk-Score-Quantitative>` fields as the product of the impact and likelihood.
-
-These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
-This information is defined within the Risk Tool --- click the information button next to the field to display the information.
 
 .. figure:: /_static/Risk-Example-Analyze-Risk-Impacts.png
     :name: Risk-Example-Analyze-Risk-Impacts
@@ -115,40 +118,40 @@ This information is defined within the Risk Tool --- click the information butto
     Risk Impacts sections using an example risk.
 
 Overall Impact
-	This is an optional field to categorize the overall impact of the risk to the project.
-
-	It can increase the ``Impact Severity``, as shown in this example risk.
+	Optional field to categorize the overall impact of the risk to Rubin Observatory before any response plans take effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
+
+``Overall Impact`` can be used to increase the ``Impact Severity`` field in the :ref:`Risk Score <Breakdown-Risk-Score-Quantitative>`, as shown in this example (:numref:`Risk-Example-Analyze-Risk-Impacts` and :numref:`Risk-Example-Analyze-Risk-Score-and-Quantitative`).
 
 Cost Impact
-	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget of $70,000,000.
-
-	Cost impacts are categorized relative to the annual baseline, even though in practice the cost of the realized risk may be felt and/or accumulated over multiple years.
+	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget of $70,000,000, before any response plans take effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
+
+Cost impacts are categorized relative to the annual baseline, even though in practice the cost of the realized risk may be felt and/or accumulated over multiple years.
 
 Schedule Impact
-	Categorization of schedule impact, relative to the critical path of the Rubin Observatory's schedule (e.g., the data release cycle).
-
-	You should discuss the specifics with your department's Associate Director to determine the schedule impact.
-	For example, some delays may have an inconsequential impact to the Observatory's operations if it can be absorbed into the data release cycle, while others may require extending the LSST survey or delaying a data release.
-	The latter example affects the Observatory's operational critical path and crucial milestones --- these impacts are the most important ones to capture and accurately.
+	Categorization of schedule impact, relative to the critical path of the Rubin Observatory's schedule (e.g., the data release cycle, the summit maintenance schedule, the start of operations, or the completion of the LSST survey) before any response plans take effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
 
+You should discuss the specifics with your department's Associate Director to determine the schedule impact.
+For example, some delays may have an inconsequential impact to the Observatory's operations if it can be absorbed into the data release cycle, while others may require extending the LSST survey or delaying a data release as an action if the risk was realized.
+The latter affects the Observatory's operational critical path and crucial milestones --- these impacts are the most important ones to capture and accurately.
+
 Likelihood
-	Overall chance of risk being realized.
+	Categorization of overall chance of risk being realized before any response plans take effect.
 
 	See :ref:`Likelihood-Table` for categories.
 
 Existential Risk
-	Select ``Yes`` if the risk is existential to NOIRLab.
+	``Yes`` or ``No`` if the risk is existential to NOIRLab.
 
-	The Rubin Observatory Risk and Opportunity Board will determine if this is appropriate.
+You should make an initial assessment for the Rubin Observatory Risk and Opportunity Board to review, then the board will confirm if this is appropriate.
 
 Schedule/Cost Impact Description
-	Use these sections to describe and comment on impact categorization and the decision on rating.
+	Text fields to describe and comment on decision for impact categorizations.
 
 
 .. _Breakdown-Risk-Score-Quantitative:
@@ -156,9 +159,15 @@ Schedule/Cost Impact Description
 Risk score and quantitative analysis 
 ------------------------------------
 
+.. todo::
+   Determine if analyze risk quantitative section should only be initial impact calculation.
+
 The fields under ``Risk Score`` are automatically generated based on input selections from :ref:`risk impacts <Breakdown-Risk-Initial-Impact>`.
-Categories and values are based on the :ref:`Breakdown-Risk-Tool-Tables`.
+These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
+The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
+
 The ``Analyze Risk Quantitative`` section will not affect values and categories; however, the section will record the impact justification and provide information needed to categorize the impacts.
+In practice, you should assess and adjust the impact categorizations after completing the the ``Analyze Risk Quantitative`` section.
 
 .. figure:: /_static/Risk-Example-Analyze-Risk-Score-and-Quantitative.png
     :name: Risk-Example-Analyze-Risk-Score-and-Quantitative
@@ -167,8 +176,6 @@ The ``Analyze Risk Quantitative`` section will not affect values and categories;
 
 Impact Severity
 	Automatically generated category based on ``Overall Impact``, ``Cost Impact``, ``Schedule Impact`` and ``Likelihood``.
-
-	See :ref:`Risk-Impact-Table` for categories.
 
 Impact Score
 	Automatically generated value based on ``Cost Impact``, ``Schedule Impact`` and ``Likelihood``.
@@ -182,56 +189,54 @@ Probability
 Initial Risk Score
 	Automatically generated value based on ``Overall Impact``, ``Cost Impact``, ``Schedule Impact`` and ``Likelihood``.
 
-Minimum Delay (Months)
-	Minimum delay if risk is realized.
-
-Maximum Delay (Months)
-	Maximum delay if risk is realized.
-
-Likely Delay (Months)
-	Most likely delay if risk is realized.
-
-Expected Schedule Delay (Months)
-	Automatically generated value based on ``Minimum Delay``, ``Maximum Delay``, and ``Likely Delay``.
+Minimum Delay (Months); Maximum Delay (Months); Likely Delay (Months)
+	Minimum, maximum and likely delay if risk is realized, in months (round to the nearest integer).
 
 .. todo::
    Define formula for Expected Schedule Delay.
 
+Expected Schedule Delay (Months)
+	Automatically generated value based on ``Minimum Delay``, ``Maximum Delay`` and ``Likely Delay``.
+
 Impact Time
 	Date when realized risk would impact the schedule.
 
+.. todo::
+   Complete list of milestones.
+
 Impacted Event/Milestone
-	The event or milestone of a realized risk.
+	Event or milestone impacted by the realized risk.
+
+This is important, so that the meaning of the schedule delay is clear.
+Some examples include ``LSST Survey Start``, ``Data Release 1`` (DR1), ``DR2``, ``Year 1 Annual Maintenance`` and ``LSST Survey Finish``.
 
 Basis of Estimate
 	Reference to basis of estimate capturing impact of realized risk.
 
-Minimum Cost (US Dollars)
-	Minimum cost of realized risk.
+Minimum Cost (US Dollars); Maximum Cost (US Dollars); Likely Cost (US Dollars)
+	Minimum, maximum and likely annual cost of realized risk.
 
-Maximum Cost (US Dollars)
-	Maximum cost of realized risk.
+Costs should be estimated as they would occur, i.e., on an approximate, time-averaged, annual basis over the likely time period of impact and in approximate then-year dollars.
+Rubin Observatory needs to know how much funding to hold in reserve **each year** in order to address risks as they are realized.
 
-Likely Cost (US Dollars)
-	Likely cost of realized risk.
-
-Costs should be estimated as they would occur, i.e. summed over the likely time period of impact (and in approximate then-year dollars). Cost estimates need only be precise to the nearest $1M (although higher precision is appreciated). This is because your cost estimates will be multiplied by your likelihood estimates, and these are likely to be uncertain by at least a factor of two.
+Cost estimates need only be precise to the nearest $1,000,000, although higher precision is appreciated.
+This resolution is chosen because the cost estimates are multiplied by the estimated likelihood, and the product is expected to be uncertain by at least a factor of two.
 
 Expected Cost Impact
 	Automatically generated value based on the following formula:
 
-	``Minimum Cost`` + ``Likely Cost``*4 + ``Maximum Cost``/6
+	``Minimum Cost`` + ``Likely Cost`` |times| 4 + ``Maximum Cost`` |divide| 6
 
 Expected Monetary Value
 	Automatically generated value based on the following formula:
 
-	(``Minimum Cost`` + ``Likely Cost``*4 + ``Maximum Cost``/6) * ((``Likelihood Score`` * 0.20) - 0.10)
+	[``Minimum Cost`` + ``Likely Cost`` |times| 4 + ``Maximum Cost`` |divide| 6] |times| [(``Likelihood Score`` |times| 0.20) - 0.10]
 
 Financial Provision
 	This field is not used by Rubin Observatory.
 
 Number of Possible Occurrences
-	Define the number of potential occurrences this risk can be realized.
+	Number of potential occurrences this risk can be realized, as an integer.
 
 
 .. _Breakdown-Risk-Residual-Impact:
@@ -241,18 +246,34 @@ Risk residual impact
 
 .. Use :ref:`Response Plans <Breakdown-Plan>` when section is ready.
 
-After a risk is realized, Response Plans are used to address it.
+After a risk is identified, response plans (also known as responses) are used to address it.
 The ``Residual Cost Impact``, ``Residual Schedule Impact`` and ``Residual Likelihood`` analyze the realized risk impact after the plan is activated.
-The methods and definitions for categorization are the same as :ref:`Breakdown-Risk-Initial-Impact` and :ref:`risk scores <Breakdown-Risk-Score-Quantitative>`.
+These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
+The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
+
+Related Actions (also known as actions) are actions taken to implement a response plan if a risk is realized.
+Actions can be associated with risk and/or responses.
+
+The risk is analyzed under the condition of realization after the response plans take effect within this section
+The impact categorizations will automatically generate the ``Residual Risk Score`` fields as the product of the impact and likelihood.
 
 .. figure:: /_static/Risk-Example-Plans-Actions-Residual-Risk.png
     :name: Risk-Example-Plans-Actions-Residual-Risk
 
-    Residual Risk Impacts and related Response Plans and Related Actions sections using an example risk.
+    Residual Risk Impacts, Response Plans and Related Actions sections using an example risk.
 
 Plan Type
-	The ``plan type`` is the strategic process of controlling the identified risks via response plans.
-	There are four types of processes, and their implementation depends on if the risk is a threat or opportunity.
+	Strategic process of controlling the identified risks via response plans.
+
+:numref:`Response-Plan-Types` shows the four types of processes, and their implementation depends on if the risk is a threat or opportunity.
+Note that a risk may still be realized after a response plan is implemented:
+for example, the difference between mitigating or accepting a threat (or enhancing or ignoring an opportunity) before the risk is realized can be summarized as "do something" or "do nothing."
+
+.. todo::
+   Include order for plan type for opportunities.
+
+Some risks may include multiple response plans.
+In this case, specify the plan type of the costliest present --- for threats, the plan types in order of increasing costliness are: ``Accept`` (least cost), ``Transfer``, ``Avoid``, ``Mitigate`` (greatest cost).
 
 .. figure:: /_static/Response-Plan-Types.png
     :name: Response-Plan-Types
@@ -290,46 +311,48 @@ Response Types for Opportunities
 		Opportunities that cannot be actively addressed through other opportunity response types can be ignored, with no special measures being taken to address them.
 
 Escalation
-	Risks can be escalated to NOIRLab Directorate or other program/services for their attention.
+	``Yes`` or ``No`` if the risks is escalated to NOIRLab Directorate or other program/services for their attention.
 
 Related Response Plans
-	Lists Response Plans associated with this risk.
+	Automatically generated list of response plans associated with this risk.
 
 Related Actions
-	Lists Actions associated with this risk.
+	Automatically generated list of actions associated with this risk.
 
 Residual Overall Impact
-	This is an optional field to categorize the overall impact of the risk to Rubin Observatory after the response plan is in effect.
-
-	It can increase the Impact Severity, as shown in this example risk.
+	Optional field to categorize the overall impact of the risk to Rubin Observatory after a response plan is in effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
+
+``Residual Overall Impact`` can be used to increase the ``Residual Impact Severity`` field.
 
 Residual Cost Impact
-	Categorization of cost impact to Rubin Observatory after the response plan is in effect.
-
-	For the Rubin Observatory, the annual budget of $70,000,000 will be used.
+	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget of $70,000,000, after a response plan is in effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
 
+Cost impacts are categorized relative to the annual baseline, even though in practice the cost of the realized risk may be felt and/or accumulated over multiple years.
+
 Residual Likelihood
-	Overall chance of risk being realized after the response plan is in effect.
+	Categorization of overall chance of risk being realized after a response plan is in effect.
 
 	See :ref:`Likelihood-Table` for categories.
 
 Residual Schedule Impact
-	Categorization of schedule impact to the project after the response plan is in effect.
-
-	Contact your department’s Associate Director to determine specifics about the schedule and critical path.
+	Categorization of schedule impact, relative to the critical path of the Rubin Observatory's schedule (e.g., the data release cycle, the summit maintenance schedule, the start of operations, or the completion of the LSST survey) after a response plan is in effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
+
+You should discuss the specifics with your department's Associate Director to determine the schedule impact.
+For example, some delays may have an inconsequential impact to the Observatory's operations if it can be absorbed into the data release cycle, while others may require extending the LSST survey or delaying a data release as an action if the risk was realized.
+The latter affects the Observatory's operational critical path and crucial milestones --- these impacts are the most important ones to capture and accurately.
 
 Residual Impact Severity
 	Automatically generated category based on ``Residual Overall Impact``, ``Residual Cost Impact``, ``Residual Schedule Impact`` and ``Residual Likelihood``.
 
-	At a minimum, ``Residual Cost Impact``, ``Residual Schedule Impact`` and ``Residual Likelihood`` must be completed because the residual impact score will not include inputs from the :ref:`Breakdown-Risk-Initial-Impact` section.
-
 	See :ref:`Risk-Impact-Table` for categories.
+
+You must include ``Residual Cost Impact``, ``Residual Schedule Impact`` and ``Residual Likelihood`` because the residual impact scores will not include inputs from the :ref:`Breakdown-Risk-Initial-Impact` section.
 
 Residual Impact Score
 	Automatically generated value based on ``Residual Cost Impact``, ``Residual Schedule Impact`` and ``Residual Likelihood``.
@@ -349,35 +372,33 @@ Residual Risk Score
 Risk comments, notify list and history
 --------------------------------------
 
-A field is available to include additional comments on the risk and its status.
+A text field is available to include additional comments on the risk and its status.
 Email notifications are possible and can be customized to project/program/service group needs to notify the appropriate internal stakeholders of ongoing changes, scheduled events and distribution of reports on necessary dates or recurring timeframes.
-All changes are tracked by the "history trail" section to capture the history of modification by users and when the modification occurred.
+All changes are tracked by the ``History Trail`` section to capture the history of modification by users and when the modification occurred.
 
 .. figure:: /_static/Risk-Example-Comments-History.png
     :name: Risk-Example-Comments-History
 
-    Risk comment, notification and history trail sections using an example risk.
+    Risk comment, notification and History Trail sections using an example risk.
 
 Status Description
-	Comments regarding the status and status changes.
+	Text field to describe and comment the status and status changes.
 
 Realized Risk Plan
-	Comments regarding planning for if and when the risk becomes realized.
+	Text field to describe and comment on planning for if and when the risk becomes realized.
 
 Conclusion
-	Comments regarding the conclusion of a retired or depreciated risk.
+	Text field to describe and comment on the conclusion of a retired or depreciated risk.
 
 Updates/Comments
-	Comments can be added regarding the risk.
-	These comments are logged once they are saved.
+	Text field to describe and comment on updates.
+	These comments are logged once they are saved; see "Nov 10 2022" entry in :numref:`Risk-Example-Comments-History`.
 
 Notify List
-	Section to include users to the risk's notify list.
+	List of users on the Notify List (left) and tools to add/remove users (right) for the risk.
 
 History Trail
-	Each change is logged ([16] in the shown example).
-	Included is the user making the change, the nature of the change and the date/time the change was made.
-	All modifications are recorded.
+	Log of all modifications to the risk, including user making the change, the nature of the change and the date/time the change was made; see entry "[16]" in :numref:`Risk-Example-Comments-History`.
 
 
 ..

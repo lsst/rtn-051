@@ -30,7 +30,7 @@ Sign on instructions
 
 Follow these steps to sign on with your NOIRLab SSO credentials:
 
-1. Use one of the links below to access the risk tool:
+1. Use one of these links to access the risk tool:
 
   - `<https://noirlab.alceatech.com/saml2/sso>`__
   - `<https://sso.connect.pingidentity.com/sso/sp/initsso?saasid=d780822d-5410-4447-b4a2-a4e07bab48cd&idpid=556eec0c-e85f-44d5-a815-d2a8a9145dcc>`__
@@ -53,7 +53,7 @@ Logout instructions
 
 Follow these steps to logout:
 
-1. Click your username on the main header bar, and select ``Logout``.
+1. Click your username on the main header bar, then select ``Logout``.
 
 .. figure:: /_static/Logout.png
     :name: Logout
