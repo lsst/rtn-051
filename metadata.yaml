@@ -55,3 +55,14 @@ docushare_url: ""
 
 # GitHub repo URL
 github_url: "https://github.com/lsst/rtn-051"
+
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This list overrides the configuration initiated by documenteer.
+exclude_patterns: [
+    "_build",
+    "README.rst",
+    ".venv",
+    "venv",
+    "project/templates/template-folder",
+]
