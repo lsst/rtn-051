@@ -31,7 +31,7 @@ This technote is a user guide for the Alcea Tracking Solutions (ATS) software to
 The software documents and tracks the risks and opportunities throughout the lifetime of operations.
 
 Throughout this documentation, the ATS software tool is referred to as the ``Risk Tool``.
-The link to the ATS Risk Tool is `<https://noirlab.alceatech.com/saml2/sso>`__.
+The link to the ATS Risk Tool is `<https://noirlab.alceatech.com/>`__.
 
 The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management process.
 
