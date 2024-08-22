@@ -14,7 +14,7 @@ Rubin Observatory Risk Management Tool User Guide
 RTN-051
 =======
 
-User guide for Rubin Observatory risk management software tooling.
+.. User guide for Rubin Observatory risk management software tooling.
 
 **Links:**
 
