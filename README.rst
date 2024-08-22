@@ -27,7 +27,7 @@ RTN-051
 Build this technical note
 =========================
 
-You can clone this repository and build the technote locally with `Sphinx`_:
+.. You can clone this repository and build the technote locally with `Sphinx`_:
 
 .. code-block:: bash
 
