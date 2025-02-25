@@ -1,10 +1,3 @@
-:tocdepth: 1
-
-.. .. sectnum::
-.. Removed section numbering.
-
-.. Metadata such as the title, authors, and description are set in metadata.yaml
-
 .. Review the README on instructions to contribute.
 .. Review the style guide to keep a consistent approach to the documentation.
 .. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
@@ -24,6 +17,10 @@
 #########################################################
 Vera C. Rubin Observatory Risk Management Tool User Guide
 #########################################################
+
+.. abstract::
+
+   User guide for Rubin Observatory risk management software tooling.
 
 .. This section should provide a brief, top-level description of the page.
 

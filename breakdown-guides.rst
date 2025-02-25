@@ -22,9 +22,6 @@ Breakdown of Risk, Plan and Action Objects
 
 This page explains and defines the fields associated with :ref:`risks <Breakdown-Risk>`.
 
-.. todo::
-   Add responses and actions to this page.
-
 .. This page explains and defines the fields associated with :ref:`risks <Breakdown-Risk>`, :ref:`plans <Breakdown-Plan>` and :ref:`actions <Breakdown-Action>`.
 
 The tables which define the categories when analyzing risks are provided in the :ref:`Breakdown-Risk-Tool-Tables`.
@@ -89,9 +86,6 @@ Date Entered; Date Last Modified; Last Modified By
 
 Share Risk Externally
 	``Yes`` or ``No`` depending on if the risk is shared external to Rubin Observatory.
-
-.. todo::
-   Determine if this is external to project or external stakeholders.
 
 Parent
 	Automatically generated list of associated Parent Risks of a Child Risk.
@@ -159,9 +153,6 @@ Schedule/Cost Impact Description
 Risk score and quantitative analysis 
 ------------------------------------
 
-.. todo::
-   Determine if analyze risk quantitative section should only be initial impact calculation.
-
 The fields under ``Risk Score`` are automatically generated based on input selections from :ref:`risk impacts <Breakdown-Risk-Initial-Impact>`.
 These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
 The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
@@ -192,17 +183,11 @@ Initial Risk Score
 Minimum Delay (Months); Maximum Delay (Months); Likely Delay (Months)
 	Minimum, maximum and likely delay if risk is realized, in months (round to the nearest integer).
 
-.. todo::
-   Define formula for Expected Schedule Delay.
-
 Expected Schedule Delay (Months)
 	Automatically generated value based on ``Minimum Delay``, ``Maximum Delay`` and ``Likely Delay``.
 
 Impact Time
 	Date when realized risk would impact the schedule.
-
-.. todo::
-   Complete list of milestones.
 
 Impacted Event/Milestone
 	Event or milestone impacted by the realized risk.
@@ -268,9 +253,6 @@ Plan Type
 :numref:`Response-Plan-Types` shows the four types of processes, and their implementation depends on if the risk is a threat or opportunity.
 Note that a risk may still be realized after a response plan is implemented:
 for example, the difference between mitigating or accepting a threat (or enhancing or ignoring an opportunity) before the risk is realized can be summarized as "do something" or "do nothing."
-
-.. todo::
-   Include order for plan type for opportunities.
 
 Some risks may include multiple response plans.
 In this case, specify the plan type of the costliest present --- for threats, the plan types in order of increasing costliness are: ``Accept`` (least cost), ``Transfer``, ``Avoid``, ``Mitigate`` (greatest cost).
