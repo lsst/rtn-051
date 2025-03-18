@@ -1,17 +1,12 @@
-:tocdepth: 1
-
-.. .. sectnum::
-.. Removed section numbering.
-
-.. Metadata such as the title, authors, and description are set in metadata.yaml
-
 .. Review the README on instructions to contribute.
-.. Review the style guide to keep a consistent approach to the documentation.
-.. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
 .. Do not remove the comments that describe each section. They are included to provide guidance to contributors.
-.. Do not remove other content provided in the templates, such as a section. Instead, comment out the content and include comments to explain the situation. For example:
-	- If a section within the template is not needed, comment out the section title and label reference. Do not delete the expected section title, reference or related comments provided from the template.
-    - If a file cannot include a title (surrounded by ampersands (#)), comment out the title from the template and include a comment explaining why this is implemented (in addition to applying the ``title`` directive).
+
+.. Substitutions
+.. |reg|    unicode:: U+000AE .. REGISTERED TRADEMARK SIGN
+    :ltrim:
+.. |clover|    unicode:: U+2318 .. MACOS CLOVER
+.. |times|    unicode:: U+00D7 .. MULITPLICATION SIGN
+.. |divide|    unicode:: U+00F7 .. DIVISION SIGN
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
@@ -27,36 +22,25 @@ Vera C. Rubin Observatory Risk Management Tool User Guide
 
 .. This section should provide a brief, top-level description of the page.
 
-This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool, managed by NOIRLab, built on the Alcea ASF architecture for risk management for the Vera C. Rubin Observatory and Legacy Survey of Space and Time (LSST) survey.
+.. abstract::
+
+This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool (referred to as the ``Risk Tool``) for the Vera C. Rubin Observatory and Legacy Survey of Space and Time (LSST) survey.
+The Risk Tool is managed by NOIRLab and built on the Alcea ASF architecture for risk management.
 The software documents and tracks the risks and opportunities throughout the lifetime of operations.
-
-Throughout this documentation, the ATS software tool is referred to as the ``Risk Tool``.
 The link to the ATS Risk Tool is `<https://noirlab.alceatech.com/>`__.
+The Rubin Observatory Risk and Opportunity Plan, `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management processes.
 
-The Rubin Observatory Risk and Opportunity Plan, in `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management process.
+.. include:: account-request-and-access.rst
 
-.. toctree::
-    :maxdepth: 2
+.. include:: basic-use-and-navigation.rst
 
-    account-request-and-access
-    basic-use-and-navigation
-    breakdown-guides
+.. include:: breakdown-risk.rst
 
+.. include:: breakdown-plan.rst
 
-.. _Rubin-Observatory-Risk-Tool-User-Guide-Project-Information:
+.. include:: breakdown-action.rst
 
-Documentation project information
-=================================
-
-Information is provided on this documentation project and how to contribute to it.
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-    :titlesonly:
-
-    project/index
-
+.. include:: risk-tool-tables.rst
 
 .. Make in-text citations with: :cite:`bibkey`.
 .. Uncomment to use citations

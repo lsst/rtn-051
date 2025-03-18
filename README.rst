@@ -1,11 +1,7 @@
 .. image:: https://img.shields.io/badge/rtn--051-lsst.io-brightgreen.svg
-   :target: https://rtn-051.lsst.io
+   :target: https://rtn-051.lsst.io/
 .. image:: https://github.com/lsst/rtn-051/workflows/CI/badge.svg
    :target: https://github.com/lsst/rtn-051/actions/
-..
-  Uncomment this section and modify the DOI strings to include a Zenodo DOI badge in the README
-  .. image:: https://zenodo.org/badge/doi/10.5281/zenodo.#####.svg
-     :target: http://dx.doi.org/10.5281/zenodo.#####
 
 #################################################
 Rubin Observatory Risk Management Tool User Guide
@@ -18,61 +14,60 @@ User guide for Rubin Observatory risk management software tooling.
 
 **Links:**
 
-- Publication URL: https://rtn-051.lsst.io
+- Publication URL: https://rtn-051.lsst.io/
 - Alternative editions: https://rtn-051.lsst.io/v
 - GitHub repository: https://github.com/lsst/rtn-051
 - Build system: https://github.com/lsst/rtn-051/actions/
 
-
 Build this technical note
 =========================
 
-You can clone this repository and build the technote locally with `Sphinx`_:
+You can clone this repository and build the technote locally if your system has Python 3.11 or later:
 
 .. code-block:: bash
 
    git clone https://github.com/lsst/rtn-051
    cd rtn-051
-   pip install -r requirements.txt
+   make init
    make html
 
-.. note::
-
-   In a Conda_ environment, ``pip install -r requirements.txt`` doesn't work as expected.
-   Instead, ``pip`` install the packages listed in ``requirements.txt`` individually.
+Repeat the ``make html`` command to rebuild the technote after making changes.
+If you need to delete any intermediate files for a clean build, run ``make clean``.
 
 The built technote is located at ``_build/html/index.html``.
+
+Publishing changes to the web
+=============================
+
+This technote is published to https://rtn-051.lsst.io/ whenever you push changes to the ``main`` branch on GitHub.
+When you push changes to a another branch, a preview of the technote is published to https://rtn-051.lsst.io/v.
 
 Editing this technical note
 ===========================
 
-You can edit the ``index.rst`` file, which is a reStructuredText document.
-The `DM reStructuredText Style Guide`_ is a good resource for how we write reStructuredText.
+The main content of this technote is in ``index.rst`` (a reStructuredText file).
+Metadata and configuration is in the ``technote.toml`` file.
+For guidance on creating content and information about specifying metadata and configuration, see the Documenteer documentation: https://documenteer.lsst.io/technotes.
 
-Remember that images and other types of assets should be stored in the ``_static/`` directory of this repository.
-See ``_static/README.rst`` for more information.
+Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
 
-The published technote at https://rtn-051.lsst.io will be automatically rebuilt whenever you push your changes to the ``main`` branch on `GitHub <https://github.com/lsst/rtn-051>`_.
+Style guide for content:
 
-Updating metadata
-=================
+- Write with the active voice and in the present tense as much as possible.
+  Write confidently and precisely, yet also casually.
 
-This technote's metadata is maintained in ``metadata.yaml``.
-In this metadata you can edit the technote's title, authors, publication date, etc..
-``metadata.yaml`` is self-documenting with inline comments.
+- Address the user directly (“you can…”).
+  Never use “we” since that’s ambiguous.
+  If “we” means “Rubin Observatory,” then name “Rubin Observatory.”
+  If “we” means the user, then say “you.”
+  Even in tutorials, don’t use “we” to refer to an imaginary writer assisting the user.
 
-Using the bibliographies
-========================
+- Write simple, short sentences in short paragraphs.
+  Chunk information with headers.
+  Try not to use more than two levels of heading hierarchy.
 
-The bibliography files in ``lsstbib/`` are copies from `lsst-texmf`_.
-You can update them to the current `lsst-texmf`_ versions with::
+- Sentence case for headings is recommended.
+  Title case for labels in reStructuredText files is recommended.
 
-   make refresh-bib
-
-Add new bibliography items to the ``local.bib`` file in the root directory (and later add them to `lsst-texmf`_).
-
-.. _Sphinx: http://sphinx-doc.org
-.. _DM reStructuredText Style Guide: https://developer.lsst.io/restructuredtext/style.html
-.. _this repo: ./index.rst
-.. _Conda: http://conda.pydata.org/docs/
-.. _lsst-texmf: https://lsst-texmf.lsst.io
+- Never use "here" as link text.
+  Instead, make the relevant noun or phrase the link.

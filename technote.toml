@@ -1,0 +1,24 @@
+[technote]
+id = "RTN-051"
+series_id = "RTN"
+canonical_url = "https://rtn-051.lsst.io/"
+github_url = "https://github.com/lsst/rtn-051"
+github_default_branch = "main"
+organization.name = "Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+license.id = "CC-BY-4.0"
+
+[[technote.authors]]
+name = {given = "Matthew R.", family = "Rumore"}
+internal_id = "rumoremr"
+
+[[technote.authors.affiliations]]
+name = "Brookhaven National Laboratory"
+internal_id = "BNL"
+address = "Upton, NY 11973, USA"
+
+[technote.sphinx]
+exclude = [
+  "technotes/_templates/*",
+  "_templates/**",
+]

@@ -1,25 +1,11 @@
-"""Sphinx configuration.
+# See the Documenteer docs for how to customize conf.py:
+# https://documenteer.lsst.io/technotes/
 
-To learn more about the Sphinx configuration for technotes, and how to
-customize it, see:
+from documenteer.conf.technote import *  # noqa F401 F403
 
-https://documenteer.lsst.io/technotes/configuration.html
-"""
-
-from documenteer.conf.technote import *  # noqa: F401, F403
-
-rst_epilog = """
-.. |reg|    unicode:: U+000AE .. REGISTERED TRADEMARK SIGN
-    :ltrim:
-.. |clover|    unicode:: U+2318 .. MACOS CLOVER
-.. |times|    unicode:: U+00D7 .. MULITPLICATION SIGN
-.. |divide|    unicode:: U+00F7 .. DIVISION SIGN
-"""
-
-extensions = [
-    'sphinx.ext.todo',
-]
-
-"""todo extension options"""
-
-todo_include_todos = 0
+exclude_patterns.append("account-request-and-access.rst")
+exclude_patterns.append("basic-use-and-navigation.rst")
+exclude_patterns.append("breakdown-risk.rst")
+exclude_patterns.append("breakdown-plan.rst")
+exclude_patterns.append("breakdown-action.rst")
+exclude_patterns.append("risk-tool-tables.rst")
