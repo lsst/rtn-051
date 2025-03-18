@@ -1,6 +1,7 @@
 This _static/README includes information on using static objects within the top-level directory of the Vera C. Rubin Observatory Risk Management Tool User Guide.
 
-To use static files, add the file (png, svg or jpeg preferred for images) to this _static directory. The reST syntax for adding the image from the top-level directory is:
+To use static files, add the file (png, svg or jpeg preferred for images) to this _static directory.
+The reST syntax for adding the image from the top-level directory is:
 
 .. figure:: _static/filename.ext
     :name: fig-label
@@ -8,6 +9,4 @@ To use static files, add the file (png, svg or jpeg preferred for images) to thi
 
     Caption text.
 
-The _static/README in lower level directories should include instructions for static objects within that directory.
-
-See https://rtn-051.lsst.io/project/contributing.html for details on contributing to the document project.
+See README for RTN-051 for details on contributing to the document project.

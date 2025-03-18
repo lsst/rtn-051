@@ -2,3 +2,7 @@
 # https://documenteer.lsst.io/technotes/
 
 from documenteer.conf.technote import *  # noqa F401 F403
+
+exclude_patterns.append("account-request-and-access.rst")
+exclude_patterns.append("basic-use-and-navigation.rst")
+exclude_patterns.append("breakdown-guides.rst")

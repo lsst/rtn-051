@@ -48,3 +48,26 @@ Editing this technical note
 The main content of this technote is in ``index.rst`` (a reStructuredText file).
 Metadata and configuration is in the ``technote.toml`` file.
 For guidance on creating content and information about specifying metadata and configuration, see the Documenteer documentation: https://documenteer.lsst.io/technotes.
+
+Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
+
+Style guide for content:
+
+- Write with the active voice and in the present tense as much as possible.
+  Write confidently and precisely, yet also casually.
+
+- Address the user directly (“you can…”).
+  Never use “we” since that’s ambiguous.
+  If “we” means “Rubin Observatory,” then name “Rubin Observatory.”
+  If “we” means the user, then say “you.”
+  Even in tutorials, don’t use “we” to refer to an imaginary writer assisting the user.
+
+- Write simple, short sentences in short paragraphs.
+  Chunk information with headers.
+  Try not to use more than two levels of heading hierarchy.
+
+- Sentence case for headings is recommended.
+  Title case for labels in reStructuredText files is recommended.
+
+- Never use "here" as link text.
+  Instead, make the relevant noun or phrase the link.

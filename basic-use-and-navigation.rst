@@ -1,10 +1,5 @@
 .. Review the README on instructions to contribute.
-.. Review the style guide to keep a consistent approach to the documentation.
-.. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
 .. Do not remove the comments that describe each section. They are included to provide guidance to contributors.
-.. Do not remove other content provided in the templates, such as a section. Instead, comment out the content and include comments to explain the situation. For example:
-	- If a section within the template is not needed, comment out the section title and label reference. Do not delete the expected section title, reference or related comments provided from the template.
-    - If a file cannot include a title (surrounded by ampersands (#)), comment out the title from the template and include a comment explaining why this is implemented (in addition to applying the ``title`` directive).
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
@@ -14,18 +9,21 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-##################
-Use and Navigation
-##################
+.. This RST file is used in a higher level RST file (/index.rst). See higher level RST file for instructions to contribute and context of use.
+.. This file does not contain a title, and a title is not provided because it is used in a technote.
+
+******************
+Use and navigation
+******************
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes basic navigation elements within the Risk Tool.
+This section includes basic navigation elements within the Risk Tool.
 
 
 .. _Use-and-Navigation-Basics:
 
-Basic Navigation
+Basic navigation
 ================
 
 Once you sign on, you should be able to see the ``system dashboard``, as shown in :numref:`System-Dashboard`.
@@ -97,7 +95,7 @@ Actions
 
 .. _Use-and-Navigation-Filters-Reports:
 
-Filters and Reports
+Filters and reports
 ===================
 
 Within the Risk Tool, :ref:`filters <Use-and-Navigation-Filters>` and :ref:`reports <Use-and-Navigation-reports>` are different features.
@@ -105,6 +103,7 @@ Filters and sorting can be utilized for a track’s main menu, displaying group(
 Reports are generated lists, summaries, matrices and charts to capture a snapshot or trending information of sorted and/or filtered items within a track.
 
 This user guide will not go into depth about setting up filters or reports; however, a few basic examples are provided.
+
 
 .. _Use-and-Navigation-Filters:
 
@@ -142,6 +141,7 @@ Follow these steps to create a filter for risks assigned to a specific departmen
      After selecting the filter criteria, the ``Filter Definition`` section will update with the selection.
   5. Name the filter appropriately in ``Filter Name`` field, then click ``Save and Run`` or ``Run (No Save)`` to apply the filter.
   6. If saved, this filter will be available under the ``User Filter Definitions`` in the Filter menu of the main header bar.
+
 
 .. _Use-and-Navigation-Reports:
 

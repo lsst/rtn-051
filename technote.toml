@@ -21,6 +21,4 @@ address = "Upton, NY 11973, USA"
 exclude = [
   "technotes/_templates/*",
   "_templates/**",
-  "project/templates/template-folder",
 ]
-rst_epilog_file = "_rst_epilog.rst"

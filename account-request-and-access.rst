@@ -1,10 +1,5 @@
 .. Review the README on instructions to contribute.
-.. Review the style guide to keep a consistent approach to the documentation.
-.. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
 .. Do not remove the comments that describe each section. They are included to provide guidance to contributors.
-.. Do not remove other content provided in the templates, such as a section. Instead, comment out the content and include comments to explain the situation. For example:
-	- If a section within the template is not needed, comment out the section title and label reference. Do not delete the expected section title, reference or related comments provided from the template.
-    - If a file cannot include a title (surrounded by ampersands (#)), comment out the title from the template and include a comment explaining why this is implemented (in addition to applying the ``title`` directive).
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
@@ -14,16 +9,27 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-##########################
-Account Request and Access
-##########################
+.. This RST file is used in a higher level RST file (/index.rst). See higher level RST file for instructions to contribute and context of use.
+.. This file does not contain a title, and a title is not provided because it is used in a technote.
+
+**************************
+Account request and access
+**************************
 
 .. This section should provide a brief, top-level description of the page.
+
+This section includes how to request access and basic sign on and signout steps within the Risk Tool.
+
+
+.. _Account-Request-Access-Request:
 
 Account request
 ===============
 
 A NOIRLab email is needed to utilize the single sign-on (SSO), and the SSO is required to access the Risk Tool.
+
+
+.. _Account-Request-Access-Signon:
 
 Sign on instructions
 ====================
@@ -44,6 +50,9 @@ Follow these steps to sign on with your NOIRLab SSO credentials:
 .. figure:: /_static/System-Dashboard.png
 
     Example system dashboard.
+
+
+.. _Account-Request-Access-Logout:
 
 Logout instructions
 ===================
