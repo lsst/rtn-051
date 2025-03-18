@@ -26,19 +26,20 @@ This section includes basic navigation elements within the Risk Tool.
 Basic navigation
 ================
 
-Once you sign on, you should be able to see the ``system dashboard``, as shown in :numref:`System-Dashboard`.
+Once you sign on, you should be able to see the ``system dashboard``, similar to :numref:`System-Dashboard`.
 
 .. figure:: /_static/System-Dashboard.png
     :name: System-Dashboard
 
     Example of system dashboard.
 
-The Risk Tool is used for multiple projects at NOIRLab --- you can limit the information shown by selecting ``Rubin Operations``.
+The Risk Tool is used for multiple projects at NOIRLab, as shown in :numref:`ATS-Projects` --- you can limit the information shown by selecting ``Rubin Operations``.
 
 .. Note::
-   Your access to risks, reports, etc. is limited to only your project/program/service and you will also have read-only access to NOIRLab directorate risks.
+   Your access to risks, reports, etc. is limited to only your projects/programs/services.
+   If NOIRLab directorate risks are available, you will also have read-only access.
 
-   If you need to acquire access to any other risk register, contact NOIRLab system administrators.
+   If you need to acquire access to any other risk registers, contact NOIRLab system administrators.
 
 .. figure:: /_static/ATS-Projects.png
     :name: ATS-Projects
@@ -84,7 +85,7 @@ There are separate main menus for each track:
 Risks
 	A risk can be categorized as an ``opportunity`` or a ``threat``.
 
-	The Project Management Institute (PMI) defines a risk in the `Project Management Body of Knowledge (PMBOK) Guide <https://www.pmi.org/pmbok-guide-standards/foundational/pmbok>` |reg| as an "uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives."
+	The Project Management Institute (PMI) defines a risk in the `Project Management Body of Knowledge (PMBOK) Guide <https://www.pmi.org/pmbok-guide-standards/foundational/pmbok>`__ |reg| as an "uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives."
 
 Responses
 	Responses are strategic process(es) controlling identified risks, whereby the stakeholders decide how to deal with each risk be it opportunities or threats.

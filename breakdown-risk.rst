@@ -3,7 +3,7 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name" -- Spaces should be replaced by hyphens.
-.. _Risk-Tool-User-Guide-Breakdown:
+.. _Risk-Tool-User-Guide-Breakdown-Risk:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
@@ -12,38 +12,30 @@
 .. This RST file is used in a higher level RST file (/index.rst). See higher level RST file for instructions to contribute and context of use.
 .. This file does not contain a title, and a title is not provided because it is used in a technote.
 
-******************************************
-Breakdown of risk, plan and action objects
-******************************************
+*****
+Risks
+*****
 
 .. This section should provide a brief, top-level description of the page.
 
-This page explains and defines the fields associated with :ref:`risks <Breakdown-Risk>`.
+This page explains and defines the fields associated with :ref:`risks <Risk-Tool-User-Guide-Breakdown-Risk>`.
 
-.. This page explains and defines the fields associated with :ref:`risks <Breakdown-Risk>`, :ref:`plans <Breakdown-Plan>` and :ref:`actions <Breakdown-Action>`.
-
-The tables which define the categories when analyzing risks are provided in the :ref:`Breakdown-Risk-Tool-Tables`.
+The tables which define the categories to analyze risks and plans are provided in the :ref:`Risk-Tool-User-Guide-Risk-Tool-Tables`.
 The source of this information is within the Risk Tool.
 
+The following sections and figures break down an example risk into:
 
-.. _Breakdown-Risk:
-
-Breakdown of a risk
-===================
-
-This section breaks down an example risk into:
-
-* :ref:`Breakdown-Risk-Identification`
-* :ref:`Breakdown-Risk-Initial-Impact`
-* :ref:`Breakdown-Risk-Score-Quantitative`
-* :ref:`Breakdown-Risk-Residual-Impact`, and
-* :ref:`Breakdown-Risk-Comments-History`.
+* :ref:`Breakdown-Risk-Identification` (:numref:`Risk-Example-Risk-Identification`)
+* :ref:`Breakdown-Risk-Initial-Impact` (:numref:`Risk-Example-Analyze-Risk-Impacts`)
+* :ref:`Breakdown-Risk-Score-Quantitative` (:numref:`Risk-Example-Analyze-Risk-Score-and-Quantitative`)
+* :ref:`Breakdown-Risk-Residual-Impact` (:numref:`Risk-Example-Plans-Actions-Residual-Risk`)
+* :ref:`Breakdown-Risk-Comments-History` (:numref:`Risk-Example-Comments-History`).
 
 
 .. _Breakdown-Risk-Identification:
 
 Risk identification
--------------------
+===================
 
 The first section is used to identify and categorize the risk and those responsible for its management.
 
@@ -52,7 +44,7 @@ The first section is used to identify and categorize the risk and those responsi
 
     Risk Identification section using an example risk.
 
-Project
+Program/Service
 	``Rubin Operations``.
 
 Risk ID
@@ -64,12 +56,16 @@ Risk Type
 Status
 	``Candidate``, ``Active``, ``Retire``, ``Realized``, or ``Depreciated``.
 
-Risk Department
+Project
 	Rubin Observatory Department which owns the risk and responsible for its management.
 
 Risk Category; Sub Category
 	Categorizes the risk using the information in :ref:`Risk-Category-Table`.
 	Click the information button next to the field to display the information within the Risk Tool webapp.
+
+Risk Owner
+	Owner of the risk, responsible for changes and notifications to AD and/or Rubin Observatory Risk and Opportunity Board.
+	This can be assigned to the department's AD or delegate.
 
 Risk Title
 	Short, descriptive title for the risk.
@@ -79,7 +75,7 @@ Risk Statement
 
 The statement should present the possible risk event or condition ("if") and the potential outcome or consequences ("then").
 
-Date Entered; Date Last Modified; Last Modified By
+Date Entered; Entered By; Date Last Modified; Last Modified By
 	Automatically generated and updated.
 
 Share Risk Externally
@@ -95,10 +91,10 @@ Parent Risks are not assessed directly, and they inherit the risk level of the h
 .. _Breakdown-Risk-Initial-Impact:
 
 Risk initial impact
--------------------
+===================
 
 Risks are analyzed by the ``Cost Impact`` and ``Schedule Impact`` to Rubin Observatory, and the ``Likelihood`` for it to be realized.
-These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
+These are categorized into five levels of severity, as defined in :ref:`Risk-Tool-User-Guide-Risk-Tool-Tables`.
 The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
 
 The risk should first be analyzed under the initial condition of realization, i.e., before responses take effect.
@@ -149,10 +145,10 @@ Schedule/Cost Impact Description
 .. _Breakdown-Risk-Score-Quantitative:
 
 Risk score and quantitative analysis 
-------------------------------------
+====================================
 
 The fields under ``Risk Score`` are automatically generated based on input selections from :ref:`risk impacts <Breakdown-Risk-Initial-Impact>`.
-These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
+These are categorized into five levels of severity, as defined in :ref:`Risk-Tool-User-Guide-Risk-Tool-Tables`.
 The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
 
 The ``Analyze Risk Quantitative`` section will not affect values and categories; however, the section will record the impact justification and provide information needed to categorize the impacts.
@@ -191,7 +187,30 @@ Impacted Event/Milestone
 	Event or milestone impacted by the realized risk.
 
 This is important, so that the meaning of the schedule delay is clear.
-Some examples include ``LSST Survey Start``, ``Data Release 1`` (DR1), ``DR2``, ``Year 1 Annual Maintenance`` and ``LSST Survey Finish``.
+:numref:`Risk-Milestones-Table` includes commonly used milestones.
+
+.. _Risk-Milestones-Table:
+.. list-table:: Milestone Definitions for Risks
+   :header-rows: 1
+
+   * - Milestone Name
+     - Milestone Description
+   * - Start of LSST
+     - Impact to the beginning of the LSST survey.
+   * - LSST Survey Complete
+     - Impact to the end of the LSST survey.
+   * - Start of Operations
+     - Impact to start of Rubin Observatory Operations.
+   * - Specific Data Release (DR), Data Preview (DP), or other Data Milestone
+     - Impact to one or multiple DR/DP that are explicitly specified.
+       For example: DR1, DP1, prompt data products, intermediate data release data products.
+   * - DRN
+     - Impact to all DRs.
+   * - Performance Analysis or Performance Evaluation
+     - Impact to a performance analysis or evaluation at an explicitly specified stage.
+       For example: performance evaluation following DR1, system-wide review after first year of operations.
+   * - Annual Maintenance
+     - Impact to annual maintenance activities.
 
 Basis of Estimate
 	Reference to basis of estimate capturing impact of realized risk.
@@ -225,13 +244,13 @@ Number of Possible Occurrences
 .. _Breakdown-Risk-Residual-Impact:
 
 Risk residual impact
---------------------
+====================
 
 .. Use :ref:`Response Plans <Breakdown-Plan>` when section is ready.
 
 After a risk is identified, response plans (also known as responses) are used to address it.
 The ``Residual Cost Impact``, ``Residual Schedule Impact`` and ``Residual Likelihood`` analyze the realized risk impact after the plan is activated.
-These are categorized into five levels of severity, as defined in :ref:`Breakdown-Risk-Tool-Tables`.
+These are categorized into five levels of severity, as defined in :ref:`Risk-Tool-User-Guide-Risk-Tool-Tables`.
 The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
 
 Related Actions (also known as actions) are actions taken to implement a response plan if a risk is realized.
@@ -349,8 +368,8 @@ Residual Risk Score
 
 .. _Breakdown-Risk-Comments-History:
 
-Risk comments, notify list and history
---------------------------------------
+Risk comments, attachments, notify list and history
+===================================================
 
 A text field is available to include additional comments on the risk and its status.
 Email notifications are possible and can be customized to project/program/service group needs to notify the appropriate internal stakeholders of ongoing changes, scheduled events and distribution of reports on necessary dates or recurring timeframes.
@@ -374,30 +393,11 @@ Updates/Comments
 	Text field to describe and comment on updates.
 	These comments are logged once they are saved; see "Nov 10 2022" entry in :numref:`Risk-Example-Comments-History`.
 
+Attachments
+	Attachments may be uploaded and associated with the risk.
+
 Notify List
 	List of users on the Notify List (left) and tools to add/remove users (right) for the risk.
 
 History Trail
 	Log of all modifications to the risk, including user making the change, the nature of the change and the date/time the change was made; see entry "[16]" in :numref:`Risk-Example-Comments-History`.
-
-
-..
-   Temporary placeholders.
-   .. _Breakdown-Plan:
-   
-   Breakdown of a plan
-   ===================
-   
-   
-   .. _Breakdown-Action:
-   
-   Breakdown of an action
-   ======================
-   
-   
-.. _Breakdown-Risk-Tool-Tables:
-
-Risk Tool Tables
-================
-
-.. include:: risk-tool-tables.inc

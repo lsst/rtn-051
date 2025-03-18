@@ -36,20 +36,16 @@ Sign on instructions
 
 Follow these steps to sign on with your NOIRLab SSO credentials:
 
-1. This link will redirect you to the sign-in portal for accessing the risk tool: `<https://noirlab.alceatech.com>`__
+1. Navigate to the Risk Tool sign-in portal with the following link: `<https://noirlab.alceatech.com>`__
 
-2. The SSO sign on page will appear --- use your NOIRLab SSO username and password.
+2. :numref:`Sign-On-Page` shows the SSO sign on page --- use your NOIRLab SSO username and password.
 
 .. figure:: /_static/Sign-On-Page.png
     :name: Sign-On-Page
 
     Sign on webpage.
 
-3. After signing on, you should be able to see the ``system dashboard``.
-
-.. figure:: /_static/System-Dashboard.png
-
-    Example system dashboard.
+3. After signing on, you should be able to see the ``system dashboard``, similar to :numref:`System-Dashboard`.
 
 
 .. _Account-Request-Access-Logout:
@@ -59,14 +55,14 @@ Logout instructions
 
 Follow these steps to logout:
 
-1. Click your username on the main header bar, then select ``Logout``.
+1. As shown in :numref:`Logout`, click your username on the main header bar, then select ``Logout``.
 
 .. figure:: /_static/Logout.png
     :name: Logout
 
     Logging out.
 
-2. Wait for the confirmation page shown below.
+2. Wait for the confirmation page shown in :numref:`Logout-Success`.
 
 .. figure:: /_static/Logout-Success.png
     :name: Logout-Success
