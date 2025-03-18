@@ -79,7 +79,7 @@ Related Plans
 .. _Breakdown-Action-Comments-History:
 
 Action comments, attachments, notify list and history
-===================================================
+=====================================================
 
 A text field is available to include additional comments on the action and its status.
 Email notifications are possible and can be customized to project/program/service group needs to notify the appropriate internal stakeholders of ongoing changes, scheduled events and distribution of reports on necessary dates or recurring timeframes.
