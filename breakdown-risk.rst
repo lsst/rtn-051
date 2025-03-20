@@ -113,11 +113,13 @@ Overall Impact
 ``Overall Impact`` can be used to increase the ``Impact Severity`` field in the :ref:`Risk Score <Breakdown-Risk-Score-Quantitative>`, as shown in this example (:numref:`Risk-Example-Analyze-Risk-Impacts` and :numref:`Risk-Example-Analyze-Risk-Score-and-Quantitative`).
 
 Cost Impact
-	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget of $70,000,000, before any response plans take effect.
+	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget, before any response plans take effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
 
 Cost impacts are categorized relative to the annual baseline, even though in practice the cost of the realized risk may be felt and/or accumulated over multiple years.
+You should discuss the specifics with your department's Associate Director to determine the cost impact.
+Critically, this includes the ``FY Baseline`` needed for the quantitative analysis used to determine the Cost Impact category.
 
 Schedule Impact
 	Categorization of schedule impact, relative to the critical path of the Rubin Observatory's schedule (e.g., the data release cycle, the summit maintenance schedule, the start of operations, or the completion of the LSST survey) before any response plans take effect.
@@ -326,11 +328,13 @@ Residual Overall Impact
 ``Residual Overall Impact`` can be used to increase the ``Residual Impact Severity`` field.
 
 Residual Cost Impact
-	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget of $70,000,000, after a response plan is in effect.
+	Categorization of cost impact, relative to the Rubin Observatory ``FY Baseline`` operating budget, after a response plan is in effect.
 
 	See :ref:`Risk-Impact-Table` for categories.
 
 Cost impacts are categorized relative to the annual baseline, even though in practice the cost of the realized risk may be felt and/or accumulated over multiple years.
+You should discuss the specifics with your department's Associate Director to determine the cost impact.
+Critically, this includes the ``FY Baseline`` needed for the quantitative analysis used to determine the Residual Cost Impact category.
 
 Residual Likelihood
 	Categorization of overall chance of risk being realized after a response plan is in effect.
