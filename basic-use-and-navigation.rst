@@ -185,3 +185,31 @@ Follow these steps to create a Quick Report (i.e., a list) of active risks sorte
   7. If needed, use the other tabs to arrange the report as you desire.
   8. Name the report appropriately in ``Report Name`` field, then click ``Save and Run`` or ``Run (No Save)`` to generate the report.
   9. If saved, you can generate a new report with the most current information in the database by clicking the report name under the ``User Report Definitions`` in the Reports menu of the main header bar.
+
+Exporting data for the Rubin View
+=================================
+
+The Rubin View spreadsheet includes a worksheet to import the risk and plan data from the Risk Tool.
+The data for each track (i.e., risk, plan, action) is exported separately.
+
+Follow these steps to generate the export files for retention and import for the Rubin View:
+
+  .. Note::
+     These initial steps are performed on one track at a time (i.e., risk, plan, action).
+
+  1. Create and save a filter that captures all status states.
+  2. Create a report such that:
+
+    * Set ``Use Filter`` to the filter created in the previous step.
+    * Under ``Report Type``, use a ``Quick Report`` by setting ``Sort By:`` to ``Risk ID``.
+    * Under ``Column Preferences``, include the columns in the specific order specified by the Rubin View.
+
+  .. Note::
+     It is suggested to save the report, so you do not need to set up the columns again.
+
+  3. Run the report.
+  #. Save two versions of the report: ``Export as CSV`` and ``Export as CSV for Excel``.
+  #. Repeat the previous steps for the remaining tracks.
+  #. Once the Risk Tool data is exported, store the files in the risks GitHub repository by using the README instructions.
+  #. Import the tracks into the Rubin View.
+  #. Announce the data and tools are updated within the #ops-risk-board and #risk-analysis channels in the Rubin Observatory Slack.

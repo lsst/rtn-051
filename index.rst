@@ -26,9 +26,13 @@ Vera C. Rubin Observatory Risk Management Tool User Guide
 
 This technote is a user guide for the Alcea Tracking Solutions (ATS) software tool (referred to as the ``Risk Tool``) for the Vera C. Rubin Observatory and Legacy Survey of Space and Time (LSST) survey.
 The Risk Tool is managed by NOIRLab and built on the Alcea ASF architecture for risk management.
-The software documents and tracks the risks and opportunities throughout the lifetime of operations.
+The software documents and tracks the all risks (i.e., threats and opportunities) throughout the lifetime of operations.
 The link to the ATS Risk Tool is `<https://noirlab.alceatech.com/>`__.
-The Rubin Observatory Risk and Opportunity Plan, `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management processes.
+
+The Rubin Observatory Risk and Opportunity Plan, `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management processes and details regarding the Rubin Risk and Opportunity Board (RROB).
+The ``Rubin View`` is a Google Sheet spreadsheet that provides a dynamic view of the risk data and project-wide information.
+Data exported from the Risk Tool is retained in the risks GitHub repository and utilized in the Rubin View.
+Contact your department's Associate Director (AD) to request access to these tools.
 
 .. include:: account-request-and-access.rst
 
