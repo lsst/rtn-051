@@ -18,7 +18,7 @@ Actions
 
 .. This section should provide a brief, top-level description of the page.
 
-This page explains and defines the fields associated with :ref:`actions <Risk-Tool-User-Guide-Breakdown-Action>`.
+This section explains and defines the fields associated with :ref:`actions <Risk-Tool-User-Guide-Breakdown-Action>`.
 Actions are related to individual actions required to implement a response plan.
 
 This section breaks down an example action into:

@@ -18,9 +18,10 @@ Risks
 
 .. This section should provide a brief, top-level description of the page.
 
-This page explains and defines the fields associated with :ref:`risks <Risk-Tool-User-Guide-Breakdown-Risk>`.
+This section explains and defines the fields associated with :ref:`risks <Risk-Tool-User-Guide-Breakdown-Risk>`.
 
 The tables which define the categories to analyze risks and plans are provided in the :ref:`Risk-Tool-User-Guide-Risk-Tool-Tables`.
+The formulas calculated by the Risk Tool are provided in this document.
 The source of this information is within the Risk Tool.
 
 The following sections and figures break down an example risk into:
@@ -37,7 +38,8 @@ The following sections and figures break down an example risk into:
 Risk identification
 ===================
 
-The first section is used to identify and categorize the risk and those responsible for its management.
+The first section of a risk is used to identify and categorize the risk and those responsible for its management.
+A text field is available to include additional comments on the status.
 
 .. figure:: /_static/Risk-Example-Risk-Identification.png
     :name: Risk-Example-Risk-Identification
@@ -80,6 +82,17 @@ Date Entered; Entered By; Date Last Modified; Last Modified By
 
 Share Risk Externally
 	``Yes`` or ``No`` depending on if the risk is shared external to Rubin Observatory.
+
+Risk Proximity Date
+	Date when risk may be realized.
+	At this time, the project does not use this field.
+	
+	Note that this field is not shown in :numref:`Risk-Example-Risk-Identification`.
+
+Updates/Comments
+	Text field to describe and comment on updates.
+	
+	Note that this field is not shown in :numref:`Risk-Example-Risk-Identification`.
 
 Parent
 	Automatically generated list of associated Parent Risks of a Child Risk.
@@ -142,6 +155,8 @@ You should make an initial assessment for the Rubin Observatory Risk and Opportu
 
 Schedule/Cost Impact Description
 	Text fields to describe and comment on decision for impact categorizations.
+    
+    If the schedule impact or cost impact is not applicable, use the following statement in the respective Schedule/Cost Impact Description: "This risk is not expected to have an impact to the schedule/cost of Rubin Operations."
 
 
 .. _Breakdown-Risk-Score-Quantitative:
@@ -248,14 +263,12 @@ Number of Possible Occurrences
 Risk residual impact
 ====================
 
-.. Use :ref:`Response Plans <Breakdown-Plan>` when section is ready.
-
-After a risk is identified, response plans (also known as responses) are used to address it.
+After a risk is identified, ``Related Response Plans`` are used to address it (see :ref:`Response Plans <Risk-Tool-User-Guide-Breakdown-Plan>`).
 The ``Residual Cost Impact``, ``Residual Schedule Impact`` and ``Residual Likelihood`` analyze the realized risk impact after the plan is activated.
 These are categorized into five levels of severity, as defined in :ref:`Risk-Tool-User-Guide-Risk-Tool-Tables`.
 The categories are defined within the Risk Tool --- click the information button next to the field to display the information within the Risk Tool webapp.
 
-Related Actions (also known as actions) are actions taken to implement a response plan if a risk is realized.
+``Related Actions`` are actions taken to implement a response plan (see :ref:`Actions <Risk-Tool-User-Guide-Breakdown-Action>`).
 Actions can be associated with risk and/or responses.
 
 The risk is analyzed under the condition of realization after the response plans take effect within this section
@@ -314,8 +327,17 @@ Response Types for Opportunities
 Escalation
 	``Yes`` or ``No`` if the risks is escalated to NOIRLab Directorate or other program/services for their attention.
 
-Related Response Plans
-	Automatically generated list of response plans associated with this risk.
+Related Response Plan
+	After selecting the associations, automatically generated list of response plans associated with this risk.
+    
+	This preview provides a summary of each plan's potential impact, namely the ``Residual Likelihood`` and ``Residual Impact Severity``.
+	These impact categories are calculated in the :ref:`plan <Risk-Tool-User-Guide-Breakdown-Plan>` using the initial impact categories and Likelihood of the risk.
+
+Related Issue Response
+	After selecting the associations, automatically generated list of response plans associated with this risk.
+	Issue Responses are not used by the project.
+	
+	Note that this field is not shown in :numref:`Risk-Example-Plans-Actions-Residual-Risk`.
 
 Related Actions
 	Automatically generated list of actions associated with this risk.
@@ -388,7 +410,7 @@ Status Description
 	Text field to describe and comment the status and status changes.
 
 Realized Risk Plan
-	Text field to describe and comment on planning for if and when the risk becomes realized.
+	While this field is shown in :numref:`Risk-Example-Comments-History`, it has since been removed from the Risk Tool.
 
 Conclusion
 	Text field to describe and comment on the conclusion of a retired or depreciated risk.

@@ -18,10 +18,11 @@ Plans
 
 .. This section should provide a brief, top-level description of the page.
 
-This page explains and defines the fields associated with :ref:`plans <Risk-Tool-User-Guide-Breakdown-Plan>`.
-Plans are also called ``responses`` or ``response plans``.
+This section explains and defines the fields associated with :ref:`response plans <Risk-Tool-User-Guide-Breakdown-Plan>`.
+Response plans are also known as ``responses`` or ``plans``.
 
 The tables which define the categories to analyze risks and plans are provided in the :ref:`Risk-Tool-User-Guide-Risk-Tool-Tables`.
+The formulas calculated by the Risk Tool are provided in this document.
 The source of this information is within the Risk Tool.
 
 This section breaks down an example plan into:
@@ -97,8 +98,14 @@ Other info.
 Plan impact to risks
 ====================
 
-A plan will impact a risk via the ``Residual Risk Impact``, ``Residual Risk Score`` and ``Quantitative Risk Assessment``.
-Residual Impact Score is the highest of the residual impact scores where a reduction % is applied to each impact from the risk. 
+Plans capture the impact on a risk through a ``% Reduction``, i.e., ``% Overall Impact Reduction``, ``% Schedule Impact Reduction``, ``% Cost Impact Reduction`` and ``Reduction to Likelihood %``.
+The fields under the Plan's ``Residual Risk Score`` section are automatically generated when the ``% Reduction`` is applied to the initial risk categories and scores (see :ref:`Breakdown-Risk-Initial-Impact`).
+Information in the plan's ``Residual Risk Score`` section contains the highest ``Residual Risk Score`` of the three impact categories.
+In the trivial case where the input to all ``% Reduction`` is zero, ``Residual Risk Score`` section will replicate the initial risk category with the highest ``Residual Risk Score``.
+
+The ``Quantitative Risk Assessment`` section will not affect values and categories; however, the section will record the justification for reduction in Cost Impact or Schedule Impact, as well as the cost of a plan.
+In practice, you should assess the ``% Reduction`` after completing the the ``Quantitative Risk Assessment`` section.
+This is suggested because the categorization in the plan's ``Residual Risk Impact`` and the risk's :ref:`Breakdown-Risk-Initial-Impact` should depend on the quantitative analysis.
 
 .. figure:: /_static/Plan-Example-Plan-Impact.png
     :name: Plan-Example-Plan-Impact
@@ -120,8 +127,11 @@ Reduction to Likelihood %
 	Percentage of reduction to ``Schedule Impact`` of risk due to plan.
 
 Residual Impact Severity
-	Automatically generated category based on XXX.
-
+	Automatically generated category based on the associated risk's  and plan``% Impact Reduction``.
+	This preview provides a summary of each plan's potential impact, namely the ``Residual Likelihood`` and ``Residual Impact Severity``.
+	These impact categories are calculated in the :ref:`plan <Risk-Tool-User-Guide-Breakdown-Plan>` using the initial impact categories and Likelihood of the risk.
+	Without setting any reductions, 
+	
 	See :ref:`Risk-Impact-Table` for categories.
 
 Residual Impact Score

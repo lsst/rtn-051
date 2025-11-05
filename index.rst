@@ -31,7 +31,7 @@ The link to the ATS Risk Tool is `<https://noirlab.alceatech.com/>`__.
 
 The Rubin Observatory Risk and Opportunity Plan, `RDO-071 <https://rdo-71.lsst.io>`_, documents the risk management processes and details regarding the Rubin Risk and Opportunity Board (RROB).
 The ``Rubin View`` is a Google Sheet spreadsheet that provides a dynamic view of the risk data and project-wide information.
-Data exported from the Risk Tool is retained in the risks GitHub repository and utilized in the Rubin View.
+Data exported from the Risk Tool for use in the Rubin View, and the exported data is retained in the risks GitHub repository.
 Contact your department's Associate Director (AD) to request access to these tools.
 
 .. include:: account-request-and-access.rst

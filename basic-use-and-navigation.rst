@@ -46,7 +46,9 @@ The Risk Tool is used for multiple projects at NOIRLab, as shown in :numref:`ATS
 
     List of projects that use the Risk Tool.
 
-The Risk Tool is comprised of three ``tracks`` which are associated with managing the risks --- ``risks``, ``responses`` and ``actions``.
+The Risk Tool is comprised of ``tracks`` which are associated with managing the risks.
+Rubin Operations uses the ``Risks``, ``Response Plans`` (also known as ``Responses`` or ``Risk Responses``) and ``Actions``.
+The Risk Tool also has ``Issue Responses``, but these are not used by the project.
 Users navigate through each track independently by either viewing the ``system dashboard`` (set up by administrators) or a ``personal main menu`` for each track (configured by your profile settings).
 Additionally, there is a ``personal dashboard``.
 
@@ -85,7 +87,7 @@ There are separate main menus for each track:
 Risks
 	A risk can be categorized as an ``opportunity`` or a ``threat``.
 
-	The Project Management Institute (PMI) defines a risk in the `Project Management Body of Knowledge (PMBOK) Guide <https://www.pmi.org/pmbok-guide-standards/foundational/pmbok>`__ |reg| as an "uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives."
+	The Project Management Institute (PMI) defines a risk in the `Project Management Body of Knowledge (PMBOK) Guide <https://www.pmi.org/standards/pmbok>`__ |reg| as an "uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives."
 
 Responses
 	Responses are strategic process(es) controlling identified risks, whereby the stakeholders decide how to deal with each risk be it opportunities or threats.
@@ -150,7 +152,8 @@ Reports
 -------
 
 Reports are generated lists, summaries, matrices and charts to capture a snapshot or trending information of sorted and/or filtered items within a track.
-Reports can be used on demand, in scheduled events such as daily emails, or as dashboard components, and report data can be exported in a variety of forms.
+Reports can be used on demand, in scheduled events such as daily emails, or as dashboard components.
+Report data can be exported in a variety of forms.
 
 The Report menu is similar to :numref:`Filter-Menu`, except the "Go to..." search is replaced by the chart creation menu button.
 
@@ -189,7 +192,7 @@ Follow these steps to create a Quick Report (i.e., a list) of active risks sorte
 Exporting data for the Rubin View
 =================================
 
-The Rubin View spreadsheet includes a worksheet to import the risk and plan data from the Risk Tool.
+The Rubin View includes a worksheet to import the risk and plan data from the Risk Tool.
 The data for each track (i.e., risk, plan, action) is exported separately.
 
 Follow these steps to generate the export files for retention and import for the Rubin View:
